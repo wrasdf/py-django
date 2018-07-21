@@ -12,7 +12,6 @@ stop:
 up: stop compose-build
 	docker-compose up
 
-
 build:
 	docker build -t django:latest .
 
